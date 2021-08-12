@@ -1,0 +1,39 @@
+{
+  "name": "react-loading-provider",
+  "title": "React Loading Provider",
+  "version": "0.0.1",
+  "description": "Provide loading state to components",
+  "author": "Artem Shumilov",
+  "license": "MIT",
+  "homepage": "https://github.com/bradymholt/cronstrue",
+  "keywords": [
+    "loading"
+  ],
+  "main": "src/index.ts",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradymholt/cronstrue.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "prettier": {
+    "printWidth": 120
+  },
+  "devDependencies": {
+    "typescript": "^3.9.6",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "start": "npm run build",
+    "build": "npx tsc -p ./src --emitDeclarationOnly"
+  },
+  "dependencies": {
+    "react": "16.14.0",
+    "react-redux": "^7.2.4",
+    "reselect": "4.0.0"
+  }
+}
