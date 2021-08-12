@@ -1,6 +1,6 @@
 {
-  "name": "react-loading-provider",
-  "title": "React Loading Provider",
+  "name": "react-redux-loading-provider",
+  "title": "React Loading Provider With Redux",
   "version": "0.0.1",
   "description": "Provide loading state to components",
   "author": "Artem Shumilov",
@@ -23,15 +23,12 @@
   "prettier": {
     "printWidth": 120
   },
-  "devDependencies": {
-    "typescript": "^3.9.6",
-    "webpack": "^4.43.0"
-  },
+  "devDependencies": {},
   "scripts": {
-    "start": "npm run build",
-    "build": "npx tsc -p ./src --emitDeclarationOnly"
+    "start": "npm run build"
   },
   "dependencies": {
+    "typescript": "^3.9.6",
     "react": "16.14.0",
     "react-redux": "^7.2.4",
     "reselect": "4.0.0"
