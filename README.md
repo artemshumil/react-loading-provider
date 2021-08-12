@@ -1,8 +1,6 @@
-# cRonstrue ![Build Status](https://github.com/bradymholt/cRonstrue/workflows/build/badge.svg) [![NPM Package](https://img.shields.io/npm/v/cronstrue.svg)](https://www.npmjs.com/package/cronstrue)
+# React Loading Provider
 
 ## Installation
-
-First, install the module:
 
 ```
 npm install react-loading-provider

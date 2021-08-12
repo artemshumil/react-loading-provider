@@ -8,5 +8,5 @@ export const LoadingProviderStateSelector = (store: LoadingProviderStatePart) =>
 
 export const getCurrentAreaLoading = createSelector(
   [LoadingProviderStateSelector, (state, area: string) => area],
-  ({ loadingAreas }: LoadingProviderState, area) => loadingAreas.includes(area),
+  ({ loadingAreas }: LoadingProviderState, area) => loadingAreas[area] || false,
 );

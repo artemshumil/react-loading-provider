@@ -1,5 +1,5 @@
 export type LoadingProviderState = {
-  loadingAreas: Array<string>;
+  loadingAreas: Record<string, boolean>;
 };
 
 export type LoadingProviderStatePart = {
